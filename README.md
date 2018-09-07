@@ -35,15 +35,15 @@ win7与win10同样使用，其他win版本没有操作过，未知！
 
 1. cmd命令行输入
 
- pip install --pre uiautomator2
+   pip install --pre uiautomator2
 
-或者
+   或者
 
- git clone https://github.com/openatx/uiautomator2
+   git clone https://github.com/openatx/uiautomator2
 
- pip install -e uiautomator2
+   pip install -e uiautomator2
 
- pip install pillow
+   pip install pillow
 
 2. 当你的adb工具已经安装完成后,并且在cmd中可以启动服务,同时你的电脑连接上一个手机或多个手机或虚拟机
 
