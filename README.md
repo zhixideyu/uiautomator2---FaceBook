@@ -10,7 +10,8 @@
 
 ## uiautomator2---FaceBook简介
  该项目是使用uiautomator2作为测试开发工具, 来自动化操控FaceBook以及其它的一些app.   —— [CSDN](https://blog.csdn.net/qq_41664526)
-###**下面是该项目开始前的准备步骤**
+ 
+ **下面是该项目开始前的准备步骤**
 >一. 安装adb
 
 **adb**, 即Android Debug Bridge,它是Android开发/测试人员不可替代的强大工具,具体内容自行百度.
