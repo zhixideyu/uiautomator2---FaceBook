@@ -83,7 +83,7 @@ emulator-5554: 你连接设备的序列号
 
 **这样,使用uiautomator2的前期基本操作就完成了,接下来就是写python脚本来自动化的操作android上app程序.**
 ## 项目所需
-- **app** ：FaceBook,，VirtualApp，uiautomator。
+- **app** ：FaceBook，VirtualApp，uiautomator。
 - **网络环境** ：需要访问外网。
 - **平台**：需要一个手机打码平台，也可以使用自己手机号注册。 
 
