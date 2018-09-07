@@ -68,5 +68,5 @@ emulator-5554: 你连接设备的序列号
 python -m weditor
 会自动打开一个浏览器
 
-###**这样,使用uiautomator2的前期基本操作就完成了,接下来就是写python脚本来自动化的操作android上app程序.**
+**这样,使用uiautomator2的前期基本操作就完成了,接下来就是写python脚本来自动化的操作android上app程序.**
 
