@@ -29,8 +29,9 @@
 注意: 一定要将所对应的文件全部复制到指定目录中
 >**二. 测试adb**
 
-1. 打开cmd命令行输入adb
-2. 查看adb版本: adb version
+    1. 打开cmd命令行输入adb
+    
+    2. 查看adb版本: adb version
 >**三. uiautomator2安装**
 
     1. cmd命令行输入
@@ -65,15 +66,20 @@
 >**四. 测试连接**
 
     1. 在cmd命令行中输入
+    
     2. adb devices
+    
     3. 测试是否与手机连接成功
 emulator-5554: 你连接设备的序列号
 出现以上内容则表明已连接成功,如果出现其情况自行百度(祝好运!)
 >**五. 可视化UI查看器**
 
     安装 pip install --pre -U weditor
+    
     在cmd命令行中输入
+    
     python -m weditor
+    
     会自动打开一个浏览器
 
 **这样,使用uiautomator2的前期基本操作就完成了,接下来就是写python脚本来自动化的操作android上app程序.**
