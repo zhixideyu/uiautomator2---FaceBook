@@ -25,6 +25,7 @@
 将文件名称中含有adb的所有文件复制到C:/windows/SysWoW64目录
 
 win7与win10同样使用，其他win版本没有操作过，未知！
+
 注意: 一定要将所对应的文件全部复制到指定目录中
 >**二. 测试adb**
 
@@ -33,19 +34,33 @@ win7与win10同样使用，其他win版本没有操作过，未知！
 >**三. uiautomator2安装**
 
 1. cmd命令行输入
+
 pip install --pre uiautomator2
+
 或者
+
 git clone https://github.com/openatx/uiautomator2
+
 pip install -e uiautomator2
+
 pip install pillow
+
 2. 当你的adb工具已经安装完成后,并且在cmd中可以启动服务,同时你的电脑连接上一个手机或多个手机或虚拟机
+
 注意: 需要打开设备的开发者模式,不同品牌手机的开发者模式打开方式上网查询即可
+
 在cmd命令行输入
+
 python -m uiautomator2 init
+
 或者指定单个设备
+
 python -m uiautomator2 init --serial $SERIAL
+
 这时命令会自动安装本库所需要的设备端程序,也会在你的手机里安装两个软件一个可见一个不可见(有图标和没图标)手动点击安装即可
+
 **最后安装提示success即可**
+
 ####**注意:  **如果在操作的过程当中提示 no module xxx,可自行对照安装即可,如果出现其它情况请自行百度(祝好运!)
 >**四. 测试连接**
 
