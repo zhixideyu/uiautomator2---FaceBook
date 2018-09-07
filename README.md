@@ -1,6 +1,6 @@
 # uiautomator2---FaceBook
 
-**uiautomator2**是一个可以使用Python对Android设备进行UI自动化的库。其底层基于Google uiautomator：
+**uiautomator2**是一个可以使用Python对Android设备进行UI自动化的库。其底层基于Google uiautomator。
  
 - **功能丰富** ：设备和开发机可以脱离数据线，通过WiFi互联；
 - **得心应手** ：集成了openstf/minicap加快截图速度, 集成了openstf/minitouch达到精确实时控制设备, 修复了xiaocong/uiautomator经常性退出的问题；
