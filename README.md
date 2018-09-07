@@ -33,11 +33,11 @@ class SomeClass:
 >>> message = '''interpreter
 ... prompt'''
 ```
->###二. 测试adb
+>二. 测试adb
 
 1. 打开cmd命令行输入adb
 2. 查看adb版本: adb version
->###三. uiautomator2安装
+>三. uiautomator2安装
 
 1. cmd命令行输入
 pip install --pre uiautomator2
@@ -54,7 +54,7 @@ python -m uiautomator2 init --serial $SERIAL
 这时命令会自动安装本库所需要的设备端程序,也会在你的手机里安装两个软件一个可见一个不可见(有图标和没图标)手动点击安装即可
 **最后安装提示success即可**
 ####**注意:  **如果在操作的过程当中提示 no module xxx,可自行对照安装即可,如果出现其它情况请自行百度(祝好运!)
->###测试连接
+>四. 测试连接
 
 1. 在cmd命令行中输入
 2. adb devices
