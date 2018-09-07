@@ -1,5 +1,5 @@
 # uiautomator2---FaceBook
-
+![mahua](mahua-logo.jpg)
 **uiautomator2**是一个可以使用Python对Android设备进行UI自动化的库。其底层基于Google uiautomator。
  
 - **功能丰富** ：设备和开发机可以脱离数据线，通过WiFi互联；
