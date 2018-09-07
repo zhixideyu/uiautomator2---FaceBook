@@ -45,17 +45,17 @@
 
        pip install pillow
 
-2. 当你的adb工具已经安装完成后,并且在cmd中可以启动服务,同时你的电脑连接上一个手机或多个手机或虚拟机
+    2. 当你的adb工具已经安装完成后,并且在cmd中可以启动服务,同时你的电脑连接上一个手机或多个手机或虚拟机
 
-   注意: 需要打开设备的开发者模式,不同品牌手机的开发者模式打开方式上网查询即可
+       注意: 需要打开设备的开发者模式,不同品牌手机的开发者模式打开方式上网查询即可
 
-   在cmd命令行输入
+       在cmd命令行输入
 
-   python -m uiautomator2 init
+       python -m uiautomator2 init
 
-   或者指定单个设备
+       或者指定单个设备
 
-   python -m uiautomator2 init --serial $SERIAL
+       python -m uiautomator2 init --serial $SERIAL
 
 这时命令会自动安装本库所需要的设备端程序,也会在你的手机里安装两个软件一个可见一个不可见(有图标和没图标)手动点击安装即可
 
@@ -64,17 +64,17 @@
 **注意:  **如果在操作的过程当中提示 no module xxx,可自行对照安装即可,如果出现其它情况请自行百度(祝好运!)
 >**四. 测试连接**
 
-1. 在cmd命令行中输入
-2. adb devices
-3. 测试是否与手机连接成功
+    1. 在cmd命令行中输入
+    2. adb devices
+    3. 测试是否与手机连接成功
 emulator-5554: 你连接设备的序列号
 出现以上内容则表明已连接成功,如果出现其情况自行百度(祝好运!)
 >**五. 可视化UI查看器**
 
-安装 pip install --pre -U weditor
-在cmd命令行中输入
-python -m weditor
-会自动打开一个浏览器
+    安装 pip install --pre -U weditor
+    在cmd命令行中输入
+    python -m weditor
+    会自动打开一个浏览器
 
 **这样,使用uiautomator2的前期基本操作就完成了,接下来就是写python脚本来自动化的操作android上app程序.**
 
