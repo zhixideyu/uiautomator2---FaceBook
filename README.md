@@ -15,10 +15,15 @@
 >**一. 安装adb**
 
 **adb**, 即Android Debug Bridge,它是Android开发/测试人员不可替代的强大工具,具体内容自行百度.
+
 1.下载adb工具
+
 将文件名称中含有adb的文件和fastboot.exe复制到C:/windows/system32目录
+
 将文件名称中含有adb的所有文件复制到C:/windows/system目录
+
 将文件名称中含有adb的所有文件复制到C:/windows/SysWoW64目录
+
 win7与win10同样使用，其他win版本没有操作过，未知！
 注意: 一定要将所对应的文件全部复制到指定目录中
 >**二. 测试adb**
