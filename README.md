@@ -59,16 +59,14 @@ python -m uiautomator2 init --serial $SERIAL
 1. 在cmd命令行中输入
 2. adb devices
 3. 测试是否与手机连接成功
-![Alt text](./1536310120779.png)
 emulator-5554: 你连接设备的序列号
 出现以上内容则表明已连接成功,如果出现其情况自行百度(祝好运!)
->###五. 可视化UI查看器
+>五. 可视化UI查看器
 
 安装 pip install --pre -U weditor
 在cmd命令行中输入
 python -m weditor
-会自动打开一个浏览器如图所示:
-![Alt text](./1536310191712.png)
+会自动打开一个浏览器
 
 ###**这样,使用uiautomator2的前期基本操作就完成了,接下来就是写python脚本来自动化的操作android上app程序.**
 
