@@ -35,7 +35,7 @@ win7与win10同样使用，其他win版本没有操作过，未知！
 
 1. cmd命令行输入
 
-pip install --pre uiautomator2
+ pip install --pre uiautomator2
 
 或者
 
