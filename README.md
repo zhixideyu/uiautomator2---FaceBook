@@ -12,7 +12,7 @@
  该项目是使用uiautomator2作为测试开发工具, 来自动化操控FaceBook以及其它的一些app.   —— [CSDN](https://blog.csdn.net/qq_41664526)
  
  **下面是该项目开始前的准备步骤**
->一. 安装adb
+>**一. 安装adb**
 
 **adb**, 即Android Debug Bridge,它是Android开发/测试人员不可替代的强大工具,具体内容自行百度.
 1.下载adb工具
@@ -21,11 +21,11 @@
 将文件名称中含有adb的所有文件复制到C:/windows/SysWoW64目录
 win7与win10同样使用，其他win版本没有操作过，未知！
 注意: 一定要将所对应的文件全部复制到指定目录中
->二. 测试adb
+>**二. 测试adb**
 
 1. 打开cmd命令行输入adb
 2. 查看adb版本: adb version
->三. uiautomator2安装
+>**三. uiautomator2安装**
 
 1. cmd命令行输入
 pip install --pre uiautomator2
@@ -42,14 +42,14 @@ python -m uiautomator2 init --serial $SERIAL
 这时命令会自动安装本库所需要的设备端程序,也会在你的手机里安装两个软件一个可见一个不可见(有图标和没图标)手动点击安装即可
 **最后安装提示success即可**
 ####**注意:  **如果在操作的过程当中提示 no module xxx,可自行对照安装即可,如果出现其它情况请自行百度(祝好运!)
->四. 测试连接
+>**四. 测试连接**
 
 1. 在cmd命令行中输入
 2. adb devices
 3. 测试是否与手机连接成功
 emulator-5554: 你连接设备的序列号
 出现以上内容则表明已连接成功,如果出现其情况自行百度(祝好运!)
->五. 可视化UI查看器
+>**五. 可视化UI查看器**
 
 安装 pip install --pre -U weditor
 在cmd命令行中输入
