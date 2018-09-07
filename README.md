@@ -88,4 +88,5 @@ emulator-5554: 你连接设备的序列号
 - **app** ：FaceBook,，VirtualApp，uiautomator。
 - **网络环境** ：需要访问外网。
 - **平台**：需要一个手机打码平台，也可以使用自己手机号注册。 
-**https://www.apkhere.com/**该网站可以下载任何版本的Facebook，此项目使用的是 Facebook 165.0.0.53.93的版本。[点击下载](https://www.apkhere.com/down/com.facebook.katana_165.0.0.53.93_free)
+
+**https://www.apkhere.com/** 该网站可以下载任何版本的Facebook，此项目使用的是 Facebook 165.0.0.53.93的版本。[点击下载](https://www.apkhere.com/down/com.facebook.katana_165.0.0.53.93_free)
