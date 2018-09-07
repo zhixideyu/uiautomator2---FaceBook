@@ -90,4 +90,4 @@ emulator-5554: 你连接设备的序列号
 **https://www.apkhere.com/** 该网站可以下载任何版本的Facebook，此项目使用的是 Facebook 165.0.0.53.93的版本。[点击下载](https://www.apkhere.com/down/com.facebook.katana_165.0.0.53.93_free)
 
 
-**VirtualApp：**是一个App虚拟化引擎，创建了一个虚拟空间，你可以在虚拟空间内任意的安装，启动和卸载APK， 这一切都与外部隔离，如同一个沙盒。该项目我在里面安装5个Facebook。
+**VirtualApp**是一个App虚拟化引擎，创建了一个虚拟空间，你可以在虚拟空间内任意的安装，启动和卸载APK， 这一切都与外部隔离，如同一个沙盒。该项目我在里面安装5个Facebook。
