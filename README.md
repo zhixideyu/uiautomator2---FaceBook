@@ -20,19 +20,6 @@
 将文件名称中含有adb的所有文件复制到C:/windows/SysWoW64目录
 win7与win10同样使用，其他win版本没有操作过，未知！
 注意: 一定要将所对应的文件全部复制到指定目录中
-### 代码块
-``` python
-@requires_authorizaton
-def somefunc(param1='', param2=0):
-    '''A docstring'''
-    if param1 > param2: # interesting
-        print 'Greater'
-    return (param2 - param1 + 1) or None
-class SomeClass:
-    pass
->>> message = '''interpreter
-... prompt'''
-```
 >二. 测试adb
 
 1. 打开cmd命令行输入adb
