@@ -6,12 +6,12 @@
 - **得心应手** ：集成了openstf/minicap加快截图速度, 集成了openstf/minitouch达到精确实时控制设备, 修复了xiaocong/uiautomator经常性退出的问题；
 - **深度整合** ：代码进行了重构和精简，方便维护。
 
-**-------------------------------------------------------------------------------------------------------------------------------------------------**
+
 
 ## uiautomator2---FaceBook简介
  该项目是使用uiautomator2作为测试开发工具, 来自动化操控FaceBook以及其它的一些app.   —— [CSDN](https://blog.csdn.net/qq_41664526)
 ###**下面是该项目开始前的准备步骤**
->###一. 安装adb
+>一. 安装adb
 
 **adb**, 即Android Debug Bridge,它是Android开发/测试人员不可替代的强大工具,具体内容自行百度.
 1.下载adb工具
@@ -71,3 +71,4 @@ python -m weditor
 ![Alt text](./1536310191712.png)
 
 ###**这样,使用uiautomator2的前期基本操作就完成了,接下来就是写python脚本来自动化的操作android上app程序.**
+
