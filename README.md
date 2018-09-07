@@ -18,13 +18,13 @@
 
 1.下载adb工具
 
-将文件名称中含有adb的文件和fastboot.exe复制到C:/windows/system32目录
+  将文件名称中含有adb的文件和fastboot.exe复制到C:/windows/system32目录
 
-将文件名称中含有adb的所有文件复制到C:/windows/system目录
+  将文件名称中含有adb的所有文件复制到C:/windows/system目录
 
-将文件名称中含有adb的所有文件复制到C:/windows/SysWoW64目录
+  将文件名称中含有adb的所有文件复制到C:/windows/SysWoW64目录
 
-win7与win10同样使用，其他win版本没有操作过，未知！
+  win7与win10同样使用，其他win版本没有操作过，未知！
 
 注意: 一定要将所对应的文件全部复制到指定目录中
 >**二. 测试adb**
@@ -47,15 +47,15 @@ win7与win10同样使用，其他win版本没有操作过，未知！
 
 2. 当你的adb工具已经安装完成后,并且在cmd中可以启动服务,同时你的电脑连接上一个手机或多个手机或虚拟机
 
-注意: 需要打开设备的开发者模式,不同品牌手机的开发者模式打开方式上网查询即可
+   注意: 需要打开设备的开发者模式,不同品牌手机的开发者模式打开方式上网查询即可
 
-在cmd命令行输入
+   在cmd命令行输入
 
-python -m uiautomator2 init
+   python -m uiautomator2 init
 
-或者指定单个设备
+   或者指定单个设备
 
-python -m uiautomator2 init --serial $SERIAL
+   python -m uiautomator2 init --serial $SERIAL
 
 这时命令会自动安装本库所需要的设备端程序,也会在你的手机里安装两个软件一个可见一个不可见(有图标和没图标)手动点击安装即可
 
