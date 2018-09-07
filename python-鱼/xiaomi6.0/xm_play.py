@@ -40,6 +40,7 @@ if __name__ == '__main__':
     #         group_names_list.append(string)
     print("""
 请选择:
+
 1.搜索好友------xm_friend_search
 
 2.添加好友------xm_add_friend
