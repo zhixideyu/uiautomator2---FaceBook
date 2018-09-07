@@ -91,3 +91,9 @@ emulator-5554: 你连接设备的序列号
 **https://www.apkhere.com/** 该网站可以下载任何版本的Facebook，此项目使用的是 Facebook 165.0.0.53.93的版本。[点击下载](https://www.apkhere.com/down/com.facebook.katana_165.0.0.53.93_free)
 
 **VirtualApp**：是一个App虚拟化引擎，创建了一个虚拟空间，你可以在虚拟空间内任意的安装，启动和卸载APK， 这一切都与外部隔离，如同一个沙盒。该项目我在里面安装5个Facebook。
+
+### 手机参数
+| 手机型号      |    机身存储 | 运行内存| MIUI版本|处理器|Android版本|
+| :-------- | --------:| :--: |
+| Redmi4X  | 16.00GB |  2.00GB |9.5.3.0|八核|7.1.2|
+
