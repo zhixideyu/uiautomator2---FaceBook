@@ -9,7 +9,7 @@
 
 
 ## uiautomator2---FaceBook简介
- 该项目是使用uiautomator2作为测试开发工具, 来自动化操控FaceBook以及其它的一些app.   —— [CSDN](https://blog.csdn.net/qq_41664526)
+ 该项目是使用uiautomator2作为测试开发工具, 来自动化操控FaceBook以及其它的一些app.   —— [项目原址](https://github.com/openatx/uiautomator2)
  
  **下面是该项目开始前的准备步骤**
 >**一. 安装adb**
