@@ -12,13 +12,13 @@ import pymysql
 
 
 db = pymysql.connect(
-    host='39.104.72.23',
-    user='meyou',
-    password='meyou',
+    host='',
+    user='',
+    password='',
     port=3306,
-    db='missons',
+    db='',
     use_unicode=True,
-    charset='utf8'
+    charset=''
 )
 
 
@@ -213,7 +213,7 @@ def register():
 
 
 def getphone():
-    get_url = 'http://api.codedw.com/api/do.php?action=getPhone&token=adcdc512f653a511952e5ab451e98cbf&sid=8448'
+    get_url = 'http://api.codedw.com/api/do.php?action=getPhone&token=xxxx&sid=xxxx'
     req = urllib.request.urlopen(get_url)
     print(req)
     ret = req.read()
@@ -230,7 +230,7 @@ def getcode(phone):
     phone = str(phone)
 
     for i in range(10):
-        get_url =  "http://api.codedw.com/api/do.php?action=getMessage&token=adcdc512f653a511952e5ab451e98cbf&sid=8448&phone=%s"% (phone)
+        get_url =  "http://api.codedw.com/api/do.php?action=getMessage&token=xxxx&sid=xxxx&phone=%s"% (phone)
 
         req = urllib.request.urlopen(get_url)
 
