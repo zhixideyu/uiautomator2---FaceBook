@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2018/8/29 17:45
 # @Author  : ZKL
-# @Email   : 837497936@qq.com
 import uiautomator2 as u2
 import time, sys, json
 import xm_module, random
