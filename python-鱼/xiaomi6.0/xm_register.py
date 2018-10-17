@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2018/8/24 11:34
 # @Author  : ZKL
-# @Email   : 837497936@qq.com
 import uiautomator2 as u2
 from public.Swipeclass import Swipeclass
 from public.Hproseclass import Hproseclass
