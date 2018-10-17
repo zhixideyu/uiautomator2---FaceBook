@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2018/8/24 16:45
 # @Author  : ZKL
-# @Email   : 837497936@qq.com
 import subprocess, re, threading, json, time, datetime
 import uiautomator2 as u2
 from public.Swipeclass import Swipeclass
