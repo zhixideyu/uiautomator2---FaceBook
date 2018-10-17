@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2018/8/24 18:46
 # @Author  : ZKL
-# @Email   : 837497936@qq.com
+
 
 
 import uiautomator2 as u2
