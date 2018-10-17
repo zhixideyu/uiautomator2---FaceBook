@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2018/8/28 14:52
 # @Author  : ZKL
-# @Email   : 837497936@qq.com
 import uiautomator2 as u2
 import xm_module, threading
 import time, sys, json, random, pymysql
